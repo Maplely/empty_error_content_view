@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:layout="@layout/layout_error"
+        android:inflatedId="includelayout@+id/error"
+        android:id="@+id/athena_desk_contract_list_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ViewStub
+        android:layout="@layout/layout_empty"
+        android:id="@+id/athena_desk_contract_list_null"
+        android:inflatedId="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>
