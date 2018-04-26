@@ -1,2 +1,2 @@
 # empty_error_content_view
-自定义view 切换null、empty、正常 三种状态 相互借鉴学习
+自定义view 切换null、empty、正常 三种状态
